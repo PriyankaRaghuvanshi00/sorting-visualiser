@@ -1,0 +1,38 @@
+form{
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+   justify-content: center;
+   align-items: center;
+}
+
+input{
+   width: 300px;
+   padding: 5px;
+   border: 1px solid black;
+   margin: 10px;
+}
+
+button{
+   width:100px;
+   background-color: brown;
+   color: white;
+   font-weight: 600;
+   border: none;
+   padding: 5px;
+   box-shadow: 1px 1px 10px rgb(109, 109, 109);
+}
+
+button:hover{
+   cursor: pointer;
+   box-shadow: 1px 1px 5px rgb(109, 109, 109);
+}
+
+@media (max-width:760px) {
+   
+input{
+   width: 130px;
+   padding: 5px;
+}
+
+}

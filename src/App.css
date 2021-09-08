@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 19px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  position: relative;
+  left: 0;
+  top: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ToolTip {
+  padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.note{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.block {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+.extra-func {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.slider{
+  width: 140px;
+}
+.speed,.array-size{
+  display: flex;
+  margin-top:10px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+h1{
+  font-size: 16px;
+}
+.speed-slow,.speed-fast{
+  font-weight: 600;
+}
+.inside-extra{
+  display: flex;
+}
+.note{
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width:760px) {
+  h2 {
+    font-size: 15px;
   }
 }

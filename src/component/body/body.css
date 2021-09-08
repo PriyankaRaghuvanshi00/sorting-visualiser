@@ -1,0 +1,22 @@
+.body {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 10px;
+   margin: 5px;
+}
+
+.arraygrid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.arrayelem {
+   font-weight: 800;
+   background-color: cornflowerblue;
+   background-color: rgb(25, 52, 102);
+   color: rgb(25, 52, 102);
+   margin: 2px;
+   width: 3px;
+}

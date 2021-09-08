@@ -1,0 +1,46 @@
+.background {
+   position: absolute;
+   left: 0;
+   width: 100vw;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.425);
+}
+
+.child {
+   width: 80%;
+   height: max-content;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   animation: modal 2s linear;
+}
+
+@keyframes modal {
+   0% {
+      transform: translateY(-100px);
+   }
+   30% {
+      transform: translateY(100px);
+   }
+   40% {
+      transform: rotateX(1deg);
+   }
+   100% {
+      transform: rotateY(5deg);
+   }
+}
+
+.child:hover {
+   box-shadow: 1px 1px 5px rgba(247, 247, 247, 0.5);
+}
+
+@media (max-width:760px) {
+   .background {
+      padding: 20px 5px;
+   }
+}

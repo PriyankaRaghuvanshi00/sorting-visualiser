@@ -1,0 +1,38 @@
+header {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 5px;
+   justify-content: center;
+   background-color: rgba(228, 228, 228, 0.315);
+   box-shadow: 1px 1px 10px rgba(138, 137, 137, 0.527);
+}
+
+header h3,.icon {
+   margin: 5px;
+   font-weight: 600;
+   padding: 5px;
+   text-align: center;
+   color: cornflowerblue;
+   cursor: pointer;
+}
+
+header h3:hover,.icon:hover {
+   text-shadow: 1px 1px 10px rgb(180, 203, 245);
+}
+
+
+@media (max-width:760px) {
+   header {
+      padding: 2px;
+   width: 100%;
+   }
+   
+   header h3 {
+      margin: 3px;
+      padding: 5px;
+      letter-spacing: 0.8px;
+      font-size: 15px;
+   }
+
+}
