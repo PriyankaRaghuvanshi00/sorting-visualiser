@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Sorting Visualizer 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+hosted on- https://sorting-d65e9.firebaseapp.com/
 
 ## Available Scripts
 
